@@ -204,7 +204,7 @@
 
   <profiles>
          <profile>
-         <cd>sonar<id>
+         <id>sonar<id>
                 <properties>
                        <sonar.host.url>
                               http://localhost:9000
