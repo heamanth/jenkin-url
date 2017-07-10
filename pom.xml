@@ -49,6 +49,11 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
+         <snapshotRepository>
+                <id>nexus</id>
+                <name>Repository</name>
+                <url>http://localhost:8081/nexus/content/Repository/snapshot</url>
+                </snapshot>
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
